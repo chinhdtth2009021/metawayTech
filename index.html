@@ -1,244 +1,271 @@
-<!DOCTYPE html>
-<html lang="en">
+    <!DOCTYPE html>
+    <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>METAWAYTECH</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-    <link href="./node_modules/flag-icons-svg/css/flag-icons.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="./public/css/style.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>METAWAYTECH</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <link href="./node_modules/flag-icons-svg/css/flag-icons.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="./public/css/style.css">
+    </head>
 
-<body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container">
-                <a class="navbar-brand" href="#">
-                    <img src="./public/img/logo-metaway1.png" alt="">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">About Us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Business Sectorss</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Project</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Investors</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Company</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <div id="home-page">
-        <!-- <section class="banner">
-            <img src="./public/img/bg-metawaytech.png" alt="" class="w-100">
-            <div class="content-banner">
-                <div class="row">
-                    <div class="col-md-6 col-sm-12 order-md-0 order-1">
-                        <div class="content">
-                            <h2 class="title">TECHNOLOGY</h2>
-                            <h6 class="slogun">TECHNOLOGY FOR LIFE</h6>
-                            <p class="subTitle">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry.
-                                <br>
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-sm-12 order-md-1 order-0">
-                        <div class="technologies">
-                            <div class="row">
-                                <div class="col-md-6 p-0">
-                                    <div class="component-technology">
-                                        <img src="./public/img/blockchaint.png" alt="">
-                                        <div class="content-technologies-top">
-                                            <a href=""> <img src="./public/img/add.png" alt="" class="add"></a>
-                                            <h5>Blockchain</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 p-0">
-                                    <div class="component-technology">
-                                        <img src="./public/img/big-data.png" alt="" class="w-100">
-                                        <div class="content-technologies-top">
-                                            <a href=""> <img src="./public/img/add.png" alt="" class="add"></a>
-                                            <h5>AI, BIG DATA</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 p-0">
-                                    <div class="component-technology">
-                                        <img src="./public/img/metavers.png" alt="" class="w-100">
-                                        <div class="content-technologies">
-                                            <a href=""> <img src="./public/img/add.png" alt="" class="add"></a>
-                                            <h5>AR, VR, XR, METAVERSE</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 p-0">
-                                    <div class="component-technology">
-                                        <img src="./public/img/automation.png" alt="" class="w-100">
-                                        <div class="content-technologies">
-                                            <a href=""> <img src="./public/img/add.png" alt="" class="add"></a>
-                                            <h5>IOT, AUTO</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-        <section class="banner">
-            <img src="./public/img/bg-metawaytech.png" alt="" class="w-100">
-            <div class="content-banner">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="content">
-                            <h1 class="title">TECHNOLOGY</h1>
-                            <h3 class="slogun">TECHNOLOGY FOR LIFE</h3>
-                            <p class="subTitle">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry.
-                                <br>
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-sm-12 order-md-1 order-0">
-                        <div class="technologies">
-                            <div class="row">
-                                <div class="col-md-6 p-0 col-sm-6 col-12">
-                                    <div class="component-technology">
-                                        <img src="./public/img/blockchaint.png" alt="">
-                                        <div class="content-technologies">
-                                            <a href=""> <img src="./public/img/add.png" alt="" class="add"></a>
-                                            <h5>Blockchain</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 p-0  col-sm-6 col-12">
-                                    <div class="component-technology">
-                                        <img src="./public/img/big-data.png" alt="">
-                                        <div class="content-technologies">
-                                            <a href=""> <img src="./public/img/add.png" alt="" class="add"></a>
-                                            <h5>AI, BIG DATA</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 p-0 col-sm-6 col-12">
-                                    <div class="component-technology">
-                                        <img src="./public/img/metavers.png" alt="">
-                                        <div class="content-technologies">
-                                            <a href=""> <img src="./public/img/add.png" alt="" class="add"></a>
-                                            <h5>AR, VR, XR, METAVERSE</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 p-0 col-sm-6 col-12">
-                                    <div class="component-technology">
-                                        <img src="./public/img/automation.png" alt="">
-                                        <div class="content-technologies">
-                                            <a href=""> <img src="./public/img/add.png" alt="" class="add"></a>
-                                            <h5>IOT, AUTO</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="overview">
-            <div class="container-lg">
-                <div class="row">
-                    <div class="col-md-6 col-sm-12">
-                        <div class="content-overview">
-                            <h3 class="ps-3">Overview</h3>
-                            <p class="ps-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum
-                                has
-                                been the industry's standard dummy text ever since the 1500s, when an unknown printer
-                                took a
-                                galley of type and scrambled it to make a type specimen book. It has survived not only
-                                five
-                                centuries, but also the leap into electronic typesetting, remaining essentially
-                                unchanged.
-                                It was popularised in the 1960s with the release of Letraset sheets containing Lorem
-                                Ipsum
-                                passages, and more recently with desktop publishing software like Aldus PageMaker
-                                including
-                                versions of Lorem Ipsum.</p>
-                        </div>
-                        <div class="d-flex justify-content-center p-4">
-                            <button type="button" class="btn btn-read-more">READ MORE</button>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-sm-12 p-0">
-                        <div class="img-overview">
-                            <img src="./public/img/overview-metawaytech.png" alt="" class="w-100">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- <section class="project">
-            <div class="container-lg">
-                <h3>Project</h3>
-                <div class="content-project">
-                        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-                            <li class="nav-item" role="presentation"><button class="nav-link active" id="pills-home-tab"
-                                    data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab"
-                                    aria-controls="pills-home" aria-selected="true">All</button></li>
-                            <li class="nav-item" role="presentation"><button class="nav-link" id="pills-profile-tab"
-                                    data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab"
-                                    aria-controls="pills-profile" aria-selected="false">Blockchain</button></li>
-                            <li class="nav-item" role="presentation"><button class="nav-link" id="pills-contact-tab"
-                                    data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab"
-                                    aria-controls="pills-contact" aria-selected="false">E-Commerce</button></li>
-                            <li class="nav-item" role="presentation"><button class="nav-link" id="pills-education-tab"
-                                    data-bs-toggle="pill" data-bs-target="#pills-education" type="button" role="tab"
-                                    aria-controls="pills-education" aria-selected="true">Education</button></li>
-                            <li class="nav-item" role="presentation"><button class="nav-link" id="pills-health-tab"
-                                    data-bs-toggle="pill" data-bs-target="#pills-health" type="button" role="tab"
-                                    aria-controls="pills-health" aria-selected="false">Healthcare</button></li>
-                            <li class="nav-item" role="presentation"><button class="nav-link" id="pills-other-tab"
-                                    data-bs-toggle="pill" data-bs-target="#pills-other" type="button" role="tab"
-                                    aria-controls="pills-other" aria-selected="false">Others</button></li>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src="./public/img/logo-metaway1.png" alt="">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Business Sectorss</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Project</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Investors</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Company</a>
+                            </li>
                         </ul>
-                        <div class="tab-content" id="pills-tabContent">
-                            <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
-                                aria-labelledby="pills-home-tab" tabindex="0">
-                                1
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div id="home-page">
+            <!-- <section class="banner">
+                <img src="./public/img/bg-metawaytech.png" alt="" class="w-100">
+                <div class="content-banner">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12 order-md-0 order-1">
+                            <div class="content">
+                                <h2 class="title">TECHNOLOGY</h2>
+                                <h6 class="slogun">TECHNOLOGY FOR LIFE</h6>
+                                <p class="subTitle">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                    industry.
+                                    <br>
+                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                                </p>
                             </div>
-                            <div class="tab-pane fade" id="pills-profile" role="tabpanel"
-                                aria-labelledby="pills-profile-tab" tabindex="0">
-                                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                                    <div class="carousel-inner">
-                                        <div class="carousel-item active">
+                        </div>
+                        <div class="col-md-6 col-sm-12 order-md-1 order-0">
+                            <div class="technologies">
+                                <div class="row">
+                                    <div class="col-md-6 p-0">
+                                        <div class="component-technology">
+                                            <img src="./public/img/blockchaint.png" alt="">
+                                            <div class="content-technologies-top">
+                                                <a href=""> <img src="./public/img/add.png" alt="" class="add"></a>
+                                                <h5>Blockchain</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 p-0">
+                                        <div class="component-technology">
+                                            <img src="./public/img/big-data.png" alt="" class="w-100">
+                                            <div class="content-technologies-top">
+                                                <a href=""> <img src="./public/img/add.png" alt="" class="add"></a>
+                                                <h5>AI, BIG DATA</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 p-0">
+                                        <div class="component-technology">
+                                            <img src="./public/img/metavers.png" alt="" class="w-100">
+                                            <div class="content-technologies">
+                                                <a href=""> <img src="./public/img/add.png" alt="" class="add"></a>
+                                                <h5>AR, VR, XR, METAVERSE</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 p-0">
+                                        <div class="component-technology">
+                                            <img src="./public/img/automation.png" alt="" class="w-100">
+                                            <div class="content-technologies">
+                                                <a href=""> <img src="./public/img/add.png" alt="" class="add"></a>
+                                                <h5>IOT, AUTO</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section> -->
+            <section class="banner">
+                <img src="./public/img/bg-metawaytech.png" alt="" class="w-100">
+                <div class="content-banner">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="content">
+                                <h1 class="title">TECHNOLOGY</h1>
+                                <h3 class="slogun">TECHNOLOGY FOR LIFE</h3>
+                                <p class="subTitle">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                    industry.
+                                    <br>
+                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-12 order-md-1 order-0">
+                            <div class="technologies">
+                                <div class="row">
+                                    <div class="col-md-6 p-0 col-sm-6 col-12">
+                                        <div class="component-technology">
+                                            <img src="./public/img/blockchaint.png" alt="">
+                                            <div class="content-technologies">
+                                                <a href=""> <img src="./public/img/add.png" alt="" class="add"></a>
+                                                <h5>    BLOCKQUOTE</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 p-0  col-sm-6 col-12">
+                                        <div class="component-technology">
+                                            <img src="./public/img/big-data.png" alt="">
+                                            <div class="content-technologies">
+                                                <a href=""> <img src="./public/img/add.png" alt="" class="add"></a>
+                                                <h5>AI, BIG DATA</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 p-0 col-sm-6 col-12">
+                                        <div class="component-technology">
+                                            <img src="./public/img/metavers.png" alt="">
+                                            <div class="content-technologies">
+                                                <a href=""> <img src="./public/img/add.png" alt="" class="add"></a>
+                                                <h5>AR, VR, XR, METAVERSE</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 p-0 col-sm-6 col-12">
+                                        <div class="component-technology">
+                                            <img src="./public/img/automation.png" alt="">
+                                            <div class="content-technologies">
+                                                <a href=""> <img src="./public/img/add.png" alt="" class="add"></a>
+                                                <h5>IOT, AUTO</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="overview">
+                <div class="container-lg">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12">
+                            <div class="content-overview">
+                                <h3 class="ps-3">Overview</h3>
+                                <p class="ps-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    Lorem Ipsum
+                                    has
+                                    been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                                    took a
+                                    galley of type and scrambled it to make a type specimen book. It has survived not only
+                                    five
+                                    centuries, but also the leap into electronic typesetting, remaining essentially
+                                    unchanged.
+                                    It was popularised in the 1960s with the release of Letraset sheets containing Lorem
+                                    Ipsum
+                                    passages, and more recently with desktop publishing software like Aldus PageMaker
+                                    including
+                                    versions of Lorem Ipsum.</p>
+                            </div>
+                            <div class="d-flex justify-content-center p-4">
+                                <button type="button" class="btn btn-read-more">READ MORE</button>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-12 p-0">
+                            <div class="img-overview">
+                                <img src="./public/img/overview-metawaytech.png" alt="" class="w-100">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- <section class="project">
+                <div class="container-lg">
+                    <h3>Project</h3>
+                    <div class="content-project">
+                            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                                <li class="nav-item" role="presentation"><button class="nav-link active" id="pills-home-tab"
+                                        data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab"
+                                        aria-controls="pills-home" aria-selected="true">All</button></li>
+                                <li class="nav-item" role="presentation"><button class="nav-link" id="pills-profile-tab"
+                                        data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab"
+                                        aria-controls="pills-profile" aria-selected="false">Blockchain</button></li>
+                                <li class="nav-item" role="presentation"><button class="nav-link" id="pills-contact-tab"
+                                        data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab"
+                                        aria-controls="pills-contact" aria-selected="false">E-Commerce</button></li>
+                                <li class="nav-item" role="presentation"><button class="nav-link" id="pills-education-tab"
+                                        data-bs-toggle="pill" data-bs-target="#pills-education" type="button" role="tab"
+                                        aria-controls="pills-education" aria-selected="true">Education</button></li>
+                                <li class="nav-item" role="presentation"><button class="nav-link" id="pills-health-tab"
+                                        data-bs-toggle="pill" data-bs-target="#pills-health" type="button" role="tab"
+                                        aria-controls="pills-health" aria-selected="false">Healthcare</button></li>
+                                <li class="nav-item" role="presentation"><button class="nav-link" id="pills-other-tab"
+                                        data-bs-toggle="pill" data-bs-target="#pills-other" type="button" role="tab"
+                                        aria-controls="pills-other" aria-selected="false">Others</button></li>
+                            </ul>
+                            <div class="tab-content" id="pills-tabContent">
+                                <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                                    aria-labelledby="pills-home-tab" tabindex="0">
+                                    1
+                                </div>
+                                <div class="tab-pane fade" id="pills-profile" role="tabpanel"
+                                    aria-labelledby="pills-profile-tab" tabindex="0">
+                                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <div class="row d-flex justify-content-center">
+                                                    <div class="col-md-6">
+                                                        <img src="./public/img/project.png" alt="" class="w-100">
+                                                    </div>
+                                                    <div class="col-md-6 ps-5">
+                                                        <div class="content-blockchain">
+                                                            <h4>Blockchain</h4>
+                                                            <h6>TECHNOLOGY FOR LIFE</h6>
+                                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                                industry. Lorem Ipsum has been the industry's standard dummy
+                                                                text
+                                                                ever since the 1500s, when an unknown printer took a galley of
+                                                                type
+                                                                and scrambled it to make a type specimen book. </p>
+                                                        </div>
+                                                        <h4>
+                                                            PROVIDE BLOCKCHAIN
+                                                            TECHNOLOGY SOLUTIONS
+                                                            FOR THE FIELDS
+                                                    </h4>
+                                                    <div class="d-flex justify-content-center p-5">
+                                                        <button type="button" class="btn btn-read-more">READ MORE</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
                                             <div class="row d-flex justify-content-center">
                                                 <div class="col-md-6">
                                                     <img src="./public/img/project.png" alt="" class="w-100">
@@ -258,655 +285,628 @@
                                                         PROVIDE BLOCKCHAIN
                                                         TECHNOLOGY SOLUTIONS
                                                         FOR THE FIELDS
-                                                </h4>
-                                                <div class="d-flex justify-content-center p-5">
-                                                    <button type="button" class="btn btn-read-more">READ MORE</button>
+                                                    </h4>
+                                                    <div class="d-flex justify-content-center p-5">
+                                                        <button type="button" class="btn btn-read-more">READ MORE</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="row d-flex justify-content-center">
+                                                <div class="col-md-6">
+                                                    <img src="./public/img/project.png" alt="" class="w-100">
+                                                </div>
+                                                <div class="col-md-6 ps-5">
+                                                    <div class="content-blockchain">
+                                                        <h4>Blockchain</h4>
+                                                        <h6>TECHNOLOGY FOR LIFE</h6>
+                                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                            industry. Lorem Ipsum has been the industry's standard dummy
+                                                            text
+                                                            ever since the 1500s, when an unknown printer took a galley of
+                                                            type
+                                                            and scrambled it to make a type specimen book. </p>
+                                                    </div>
+                                                    <h4>
+                                                        PROVIDE BLOCKCHAIN
+                                                        TECHNOLOGY SOLUTIONS
+                                                        FOR THE FIELDS
+                                                    </h4>
+                                                    <div class="d-flex justify-content-center p-5">
+                                                        <button type="button" class="btn btn-read-more">READ MORE</button>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="carousel-item">
-                                        <div class="row d-flex justify-content-center">
-                                            <div class="col-md-6">
-                                                <img src="./public/img/project.png" alt="" class="w-100">
-                                            </div>
-                                            <div class="col-md-6 ps-5">
-                                                <div class="content-blockchain">
-                                                    <h4>Blockchain</h4>
-                                                    <h6>TECHNOLOGY FOR LIFE</h6>
-                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting
-                                                        industry. Lorem Ipsum has been the industry's standard dummy
-                                                        text
-                                                        ever since the 1500s, when an unknown printer took a galley of
-                                                        type
-                                                        and scrambled it to make a type specimen book. </p>
-                                                </div>
-                                                <h4>
-                                                    PROVIDE BLOCKCHAIN
-                                                    TECHNOLOGY SOLUTIONS
-                                                    FOR THE FIELDS
-                                                </h4>
-                                                <div class="d-flex justify-content-center p-5">
-                                                    <button type="button" class="btn btn-read-more">READ MORE</button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <div class="row d-flex justify-content-center">
-                                            <div class="col-md-6">
-                                                <img src="./public/img/project.png" alt="" class="w-100">
-                                            </div>
-                                            <div class="col-md-6 ps-5">
-                                                <div class="content-blockchain">
-                                                    <h4>Blockchain</h4>
-                                                    <h6>TECHNOLOGY FOR LIFE</h6>
-                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting
-                                                        industry. Lorem Ipsum has been the industry's standard dummy
-                                                        text
-                                                        ever since the 1500s, when an unknown printer took a galley of
-                                                        type
-                                                        and scrambled it to make a type specimen book. </p>
-                                                </div>
-                                                <h4>
-                                                    PROVIDE BLOCKCHAIN
-                                                    TECHNOLOGY SOLUTIONS
-                                                    FOR THE FIELDS
-                                                </h4>
-                                                <div class="d-flex justify-content-center p-5">
-                                                    <button type="button" class="btn btn-read-more">READ MORE</button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <button class="carousel-control-prev" type="button"
-                                    data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                                    <i class="fa-solid fa-angle-left"></i>
-                                </button>
-                                <button class="carousel-control-next" type="button"
-                                    data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                                    <i class="fa-solid fa-chevron-right"></i>
-                                </button>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="pills-contact" role="tabpanel"
-                            aria-labelledby="pills-contact-tab" tabindex="0">3</div>
-                        <div class="tab-pane fade" id="pills-education" role="tabpanel"
-                            aria-labelledby="pills-education-tab" tabindex="0">4</div>
-                        <div class="tab-pane fade" id="pills-health" role="tabpanel" aria-labelledby="pills-health-tab"
-                            tabindex="0">5</div>
-                        <div class="tab-pane fade" id="pills-other" role="tabpanel" aria-labelledby="pills-other-tab"
-                            tabindex="0">6</div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-        <section class="project">
-            <div class="container-lg">
-                <h2>Project</h2>
-                <div class="w3-center">
-                    <button class="w3-button demo" onclick="currentDiv(1)"> All</button>
-                    <button class="w3-button demo" onclick="currentDiv(2)">Blockchain</button>
-                    <button class="w3-button demo" onclick="currentDiv(3)">E-Commerce</button>
-                    <button class="w3-button demo" onclick="currentDiv(4)">Education</button>
-                    <button class="w3-button demo" onclick="currentDiv(5)">Healthcare</button>
-                    <button class="w3-button demo" onclick="currentDiv(6)">Others</button>
-                </div>
-                <div class="w3-content pt-4">
-                    <div class="mySlides">
-                        <div class="row">
-                            <div class="col-md-6 order-md-0 order-1">
-                                <img src="./public/img/automation.png" alt="" class="w-100">
-                            </div>
-                            <div class="col-md-6 ps-5 order-md-1 order-0">
-                                <div class="content-blockchain ">
-                                    <h3>All</h3>
-                                    <h6>TECHNOLOGY FOR LIFE</h6>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting
-                                        industry. Lorem Ipsum has been the industry's standard dummy
-                                        text
-                                        ever since the 1500s, when an unknown printer took a galley of
-                                        type
-                                        and scrambled it to make a type specimen book. </p>
-                                </div>
-                                <h4>
-                                    PROVIDE BLOCKCHAIN
-                                    TECHNOLOGY SOLUTIONS
-                                    FOR THE FIELDS
-                                </h4>
-                                <div class="d-flex justify-content-center p-5">
-                                    <button type="button" class="btn btn-read-more">READ MORE</button>
+                                    <button class="carousel-control-prev" type="button"
+                                        data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                        <i class="fa-solid fa-angle-left"></i>
+                                    </button>
+                                    <button class="carousel-control-next" type="button"
+                                        data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                        <i class="fa-solid fa-chevron-right"></i>
+                                    </button>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="mySlides">
-                        <div class="row">
-                            <div class="col-md-6  order-md-0 order-1">
-                                <img src="./public/img/project.png" alt="" class="w-100">
-                            </div>
-                            <div class="col-md-6 ps-5 order-md-1 order-0">
-                                <div class="content-blockchain">
-                                    <h3>Blockchain</h3>
-                                    <h6>TECHNOLOGY FOR LIFE</h6>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting
-                                        industry. Lorem Ipsum has been the industry's standard dummy
-                                        text
-                                        ever since the 1500s, when an unknown printer took a galley of
-                                        type
-                                        and scrambled it to make a type specimen book. </p>
-                                </div>
-                                <h4>
-                                    PROVIDE BLOCKCHAIN
-                                    TECHNOLOGY SOLUTIONS
-                                    FOR THE FIELDS
-                                </h4>
-                                <div class="d-flex justify-content-center p-5">
-                                    <button type="button" class="btn btn-read-more">READ MORE</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mySlides">
-                        <div class="row">
-                            <div class="col-md-6 order-md-0 order-1">
-                                <img src="./public/img/metavers.png" alt="" class="w-100">
-                            </div>
-                            <div class="col-md-6 ps-5 order-md-1 order-0">
-                                <div class="content-blockchain">
-                                    <h3>E-Commerce</h3>
-                                    <h6>TECHNOLOGY FOR LIFE</h6>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting
-                                        industry. Lorem Ipsum has been the industry's standard dummy
-                                        text
-                                        ever since the 1500s, when an unknown printer took a galley of
-                                        type
-                                        and scrambled it to make a type specimen book. </p>
-                                </div>
-                                <h4>
-                                    PROVIDE BLOCKCHAIN
-                                    TECHNOLOGY SOLUTIONS
-                                    FOR THE FIELDS
-                                </h4>
-                                <div class="d-flex justify-content-center p-5">
-                                    <button type="button" class="btn btn-read-more">READ MORE</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mySlides">
-                        <div class="row">
-                            <div class="col-md-6 order-md-0 order-1">
-                                <img src="./public/img/bg-metawaytech.png" alt="" class="w-100">
-                            </div>
-                            <div class="col-md-6 ps-5 order-md-1 order-0">
-                                <div class="content-blockchain">
-                                    <h3>Education</h3>
-                                    <h6>TECHNOLOGY FOR LIFE</h6>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting
-                                        industry. Lorem Ipsum has been the industry's standard dummy
-                                        text
-                                        ever since the 1500s, when an unknown printer took a galley of
-                                        type
-                                        and scrambled it to make a type specimen book. </p>
-                                </div>
-                                <h4>
-                                    PROVIDE BLOCKCHAIN
-                                    TECHNOLOGY SOLUTIONS
-                                    FOR THE FIELDS
-                                </h4>
-                                <div class="d-flex justify-content-center p-5">
-                                    <button type="button" class="btn btn-read-more">READ MORE</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mySlides">
-                        <div class="row">
-                            <div class="col-md-6 order-md-0 order-1">
-                                <img src="./public/img/metavers.png" alt="" class="w-100">
-                            </div>
-                            <div class="col-md-6 ps-5 order-md-1 order-0">
-                                <div class="content-blockchain">
-                                    <h3>Healthcare</h3>
-                                    <h6>TECHNOLOGY FOR LIFE</h6>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting
-                                        industry. Lorem Ipsum has been the industry's standard dummy
-                                        text
-                                        ever since the 1500s, when an unknown printer took a galley of
-                                        type
-                                        and scrambled it to make a type specimen book. </p>
-                                </div>
-                                <h4>
-                                    PROVIDE BLOCKCHAIN
-                                    TECHNOLOGY SOLUTIONS
-                                    FOR THE FIELDS
-                                </h4>
-                                <div class="d-flex justify-content-center p-5">
-                                    <button type="button" class="btn btn-read-more">READ MORE</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mySlides">
-                        <div class="row">
-                            <div class="col-md-6 order-md-0 order-1">
-                                <img src="./public/img/project.png" alt="" class="w-100">
-                            </div>
-                            <div class="col-md-6 ps-5 order-md-1 order-0">
-                                <div class="content-blockchain">
-                                    <h3>Others</h3>
-                                    <h6>TECHNOLOGY FOR LIFE</h6>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting
-                                        industry. Lorem Ipsum has been the industry's standard dummy
-                                        text
-                                        ever since the 1500s, when an unknown printer took a galley of
-                                        type
-                                        and scrambled it to make a type specimen book. </p>
-                                </div>
-                                <h4>
-                                    PROVIDE BLOCKCHAIN
-                                    TECHNOLOGY SOLUTIONS
-                                    FOR THE FIELDS
-                                </h4>
-                                <div class="d-flex justify-content-center p-5">
-                                    <button type="button" class="btn btn-read-more">READ MORE</button>
-                                </div>
-                            </div>
+                            <div class="tab-pane fade" id="pills-contact" role="tabpanel"
+                                aria-labelledby="pills-contact-tab" tabindex="0">3</div>
+                            <div class="tab-pane fade" id="pills-education" role="tabpanel"
+                                aria-labelledby="pills-education-tab" tabindex="0">4</div>
+                            <div class="tab-pane fade" id="pills-health" role="tabpanel" aria-labelledby="pills-health-tab"
+                                tabindex="0">5</div>
+                            <div class="tab-pane fade" id="pills-other" role="tabpanel" aria-labelledby="pills-other-tab"
+                                tabindex="0">6</div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="w3-continue">
-                <div class="w3-section d-flex justify-content-between">
-                    <button class="w3-button btn-next btn-next-left" onclick="plusDivs(-1)">❮</button>
-                    <button class="w3-button btn-next btn-next-right" onclick="plusDivs(1)"> ❯</button>
-                </div>
-            </div>
-        </section>
-        <section class="out-partners">
-            <div class="container-lg">
-                <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active" data-bs-interval="10000">
+            </section> -->
+            <section class="project">
+                <div class="container-lg">
+                    <h2>Project</h2>
+                    <div class="w3-center">
+                        <button class="w3-button demo" onclick="currentDiv(1)"> All</button>
+                        <button class="w3-button demo" onclick="currentDiv(2)">Blockchain</button>
+                        <button class="w3-button demo" onclick="currentDiv(3)">E-Commerce</button>
+                        <button class="w3-button demo" onclick="currentDiv(4)">Education</button>
+                        <button class="w3-button demo" onclick="currentDiv(5)">Healthcare</button>
+                        <button class="w3-button demo" onclick="currentDiv(6)">Others</button>
+                    </div>
+                    <div class="w3-content pt-4">
+                        <div class="mySlides">
                             <div class="row">
-                                <div class="col-md-6 col-sm-12 order-md-0 order-1">
-                                    <div class="list-item">
-                                        <div class="item">
-                                            <img src="./public/img/phi-group.png" alt="">
-                                        </div>
-                                        <div class="item">
-                                            <img src="./public/img/taipy.png" alt="">
-                                        </div>
-                                        <div class="item">
-                                            <img src="./public/img/pencil.png" alt="">
-                                        </div>
-                                        <div class="item">
-                                            <img src="./public/img/hyperledger.png" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="list-item">
-                                        <div class="item">
-                                            <img src="./public/img/metaway-tech.png" alt="">
-                                        </div>
-                                        <div class="item">
-                                            <img src="./public/img/metaway-capital.png" alt="">
-                                        </div>
-                                        <div class="item">
-                                            <img src="./public/img/metaway-med.png" alt="">
-                                        </div>
-                                        <div class="item">
-                                            <img src="./public/img/metaway-land.png" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="list-item">
-                                        <div class="item">
-                                            <img src="./public/img/pencil.png" alt="">
-                                        </div>
-                                        <div class="item">
-                                            <img src="./public/img/metaway-finance.png" alt="">
-                                        </div>
-                                        <div class="item">
-                                            <img src="./public/img/hyperledger.png" alt="">
-                                        </div>
-                                        <div class="item">
-                                            <img src="./public/img/taipy.png" alt="">
-                                        </div>
-                                    </div>
+                                <div class="col-md-6 order-md-0 order-1">
+                                    <img src="./public/img/automation.png" alt="" class="w-100">
                                 </div>
-                                <div class="col-md-6 col-sm-12  order-md-1 order-0">
-                                    <div class="content-partners">
-                                        <h5> OUT PARTNERS</h5>
-                                        <h2> TRUSTED AND <br>
-                                            SUPPORTED <br>
-                                            BY MANY</h2>
-                                        <p>“We work with major service providers to <br>
-                                            blockchainise conventional business models”</p>
+                                <div class="col-md-6 ps-5 order-md-1 order-0">
+                                    <div class="content-blockchain ">
+                                        <h3>All</h3>
+                                        <h6>TECHNOLOGY FOR LIFE</h6>
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                            industry. Lorem Ipsum has been the industry's standard dummy
+                                            text
+                                            ever since the 1500s, when an unknown printer took a galley of
+                                            type
+                                            and scrambled it to make a type specimen book. </p>
+                                    </div>
+                                    <h4>
+                                        PROVIDE BLOCKCHAIN
+                                        TECHNOLOGY SOLUTIONS
+                                        FOR THE FIELDS
+                                    </h4>
+                                    <div class="d-flex justify-content-center p-5">
+                                        <button type="button" class="btn btn-read-more">READ MORE</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item" data-bs-interval="2000">
+                        <div class="mySlides">
                             <div class="row">
-                                <div class="col-md-6 col-sm-12 order-md-0 order-1">
-                                    <div class="list-item">
-                                        <div class="item">
-                                            <img src="./public/img/phi-group.png" alt="">
-                                        </div>
-                                        <div class="item">
-                                            <img src="./public/img/taipy.png" alt="">
-                                        </div>
-                                        <div class="item">
-                                            <img src="./public/img/pencil.png" alt="">
-                                        </div>
-                                        <div class="item">
-                                            <img src="./public/img/hyperledger.png" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="list-item">
-                                        <div class="item">
-                                            <img src="./public/img/metaway-tech.png" alt="">
-                                        </div>
-                                        <div class="item">
-                                            <img src="./public/img/metaway-capital.png" alt="">
-                                        </div>
-                                        <div class="item">
-                                            <img src="./public/img/metaway-med.png" alt="">
-                                        </div>
-                                        <div class="item">
-                                            <img src="./public/img/metaway-land.png" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="list-item">
-                                        <div class="item">
-                                            <img src="./public/img/pencil.png" alt="">
-                                        </div>
-                                        <div class="item">
-                                            <img src="./public/img/metaway-finance.png" alt="">
-                                        </div>
-                                        <div class="item">
-                                            <img src="./public/img/hyperledger.png" alt="">
-                                        </div>
-                                        <div class="item">
-                                            <img src="./public/img/taipy.png" alt="">
-                                        </div>
-                                    </div>
+                                <div class="col-md-6  order-md-0 order-1">
+                                    <img src="./public/img/project.png" alt="" class="w-100">
                                 </div>
-                                <div class="col-md-6 col-sm-12  order-md-1 order-0">
-                                    <div class="content-partners">
-                                        <h5> OUT PARTNERS</h5>
-                                        <h2> TRUSTED AND <br>
-                                            SUPPORTED <br>
-                                            BY MANY</h2>
-                                        <p>“We work with major service providers to <br>
-                                            blockchainise conventional business models”</p>
+                                <div class="col-md-6 ps-5 order-md-1 order-0">
+                                    <div class="content-blockchain">
+                                        <h3>Blockchain</h3>
+                                        <h6>TECHNOLOGY FOR LIFE</h6>
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                            industry. Lorem Ipsum has been the industry's standard dummy
+                                            text
+                                            ever since the 1500s, when an unknown printer took a galley of
+                                            type
+                                            and scrambled it to make a type specimen book. </p>
+                                    </div>
+                                    <h4>
+                                        PROVIDE BLOCKCHAIN
+                                        TECHNOLOGY SOLUTIONS
+                                        FOR THE FIELDS
+                                    </h4>
+                                    <div class="d-flex justify-content-center p-5">
+                                        <button type="button" class="btn btn-read-more">READ MORE</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item">
+                        <div class="mySlides">
                             <div class="row">
-                                <div class="col-md-6 col-sm-12 order-md-0 order-1">
-                                    <div class="list-item">
-                                        <div class="item">
-                                            <img src="./public/img/phi-group.png" alt="">
-                                        </div>
-                                        <div class="item">
-                                            <img src="./public/img/taipy.png" alt="">
-                                        </div>
-                                        <div class="item">
-                                            <img src="./public/img/pencil.png" alt="">
-                                        </div>
-                                        <div class="item">
-                                            <img src="./public/img/hyperledger.png" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="list-item">
-                                        <div class="item">
-                                            <img src="./public/img/metaway-tech.png" alt="">
-                                        </div>
-                                        <div class="item">
-                                            <img src="./public/img/metaway-capital.png" alt="">
-                                        </div>
-                                        <div class="item">
-                                            <img src="./public/img/metaway-med.png" alt="">
-                                        </div>
-                                        <div class="item">
-                                            <img src="./public/img/metaway-land.png" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="list-item">
-                                        <div class="item">
-                                            <img src="./public/img/pencil.png" alt="">
-                                        </div>
-                                        <div class="item">
-                                            <img src="./public/img/metaway-finance.png" alt="">
-                                        </div>
-                                        <div class="item">
-                                            <img src="./public/img/hyperledger.png" alt="">
-                                        </div>
-                                        <div class="item">
-                                            <img src="./public/img/taipy.png" alt="">
-                                        </div>
-                                    </div>
+                                <div class="col-md-6 order-md-0 order-1">
+                                    <img src="./public/img/metavers.png" alt="" class="w-100">
                                 </div>
-                                <div class="col-md-6 col-sm-12 order-md-1 order-0">
-                                    <div class="content-partners">
-                                        <h5> OUT PARTNERS</h5>
-                                        <h2> TRUSTED AND <br>
-                                            SUPPORTED <br>
-                                            BY MANY</h2>
-                                        <p>“We work with major service providers to <br>
-                                            blockchainise conventional business models”</p>
+                                <div class="col-md-6 ps-5 order-md-1 order-0">
+                                    <div class="content-blockchain">
+                                        <h3>E-Commerce</h3>
+                                        <h6>TECHNOLOGY FOR LIFE</h6>
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                            industry. Lorem Ipsum has been the industry's standard dummy
+                                            text
+                                            ever since the 1500s, when an unknown printer took a galley of
+                                            type
+                                            and scrambled it to make a type specimen book. </p>
+                                    </div>
+                                    <h4>
+                                        PROVIDE BLOCKCHAIN
+                                        TECHNOLOGY SOLUTIONS
+                                        FOR THE FIELDS
+                                    </h4>
+                                    <div class="d-flex justify-content-center p-5">
+                                        <button type="button" class="btn btn-read-more">READ MORE</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
-                        data-bs-slide="prev">
-                        <i class="fa-solid fa-angle-left"></i>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
-                        data-bs-slide="next">
-                        <i class="fa-solid fa-chevron-right"></i>
-                    </button>
-                </div>
-            </div>
-        </section>
-        <section class="technology">
-            <div class="row g-0">
-                <div class="col-md-3 col-sm-6">
-                    <div class="content-technology">
-                        <a href="">
-                            <img src="./public/img/technologies1.png" alt="" class="w-100 p-1">
-                            <div class="title-technology">
-                                <h3>News Lorem ipsum dolor amet</h3>
-                                <p>Lorem Ipsum is simply </p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="content-technology">
-                        <a href="">
-                            <img src="./public/img/technologies2.png" alt="" class="w-100 p-1">
-                            <div class="title-technology">
-                                <h3>News Lorem ipsum dolor amet</h3>
-                                <p>Lorem Ipsum is simply </p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="content-technology">
-                        <a href="">
-                            <img src="./public/img/technologies3.png" alt="" class="w-100 p-1">
-                            <div class="title-technology">
-                                <h3>News Lorem ipsum dolor amet</h3>
-                                <p>Lorem Ipsum is simply </p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="content-technology">
-                        <a href="">
-                            <img src="./public/img/technologies4.png" alt="" class="w-100 p-1">
-                            <div class="title-technology">
-                                <h3>News Lorem ipsum dolor amet</h3>
-                                <p>Lorem Ipsum is simply </p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </div>
-    <footer>
-        <div class="container-lg">
-            <div class="page-footer">
-                <div class="home-information">
-                    <h5 class="title-footer"><span>HOME PAGE</span></h5>
-                    <span class="border-buttom"></span>
-                    <div class="row ps-5">
-                        <div class="col-md">
-                            <p>ABOUT US</p>
-                            <ul>
-                                <li>About Us</li>
-                                <li>Brand Story</li>
-                                <li>Vision</li>
-                                <li>Mission</li>
-                                <li>Competivite Advantages</li>
-                                <li>Core Values</li>
-                                <li>Meet Out Team</li>
-                                <li>Technology Stack</li>
-                            </ul>
-                        </div>
-                        <div class="col-md">
-                            <p>BUSINESS SECTORS</p>
-                            <ul>
-                                <li>Blockchain</li>
-                                <li>Al, Big data</li>
-                                <li>AR, VR, EX Metaverse</li>
-                                <li>IOT, Automation</li>
-                            </ul>
-                        </div>
-                        <div class="col-md">
-                            <p> PROJECTS</p>
-                            <ul>
-                                <li>Hyperas</li>
-                                <li>Divega</li>
-                                <li>Pindias</li>
-                                <li>Rapital bank</li>
-                            </ul>
-                        </div>
-                        <div class="col-md">
-                            <p>INVESOTORS</p>
-                            <ul>
-                                <li>Internal Report</li>
-                                <li>Annual Financial Report</li>
-                            </ul>
-                        </div>
-                        <div class="col-md">
-                            <p>COMPANY</p>
-                            <ul>
-                                <li>News & Blog</li>
-                                <li>Resources</li>
-                                <li>Talent Aquisition</li>
-                                <li>Contact</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="contact-information pb-5">
-                    <div class="row">
-                        <div class="col-md-6 col-sm-12 p-3">
-                            <h5 class="title-footer"><span>METAWAY TECH</span></h5>
-                            <span class="border-buttom"></span>
-                            <div class="address">
-                                <div class="map">
-                                    <div class="characters pe-4">A</div>
-                                    <div>CX01lot, Van Khe urban area, La Khe Ward, <br>Ha Dong District, Hanoi, Vietnam
+                        <div class="mySlides">
+                            <div class="row">
+                                <div class="col-md-6 order-md-0 order-1">
+                                    <img src="./public/img/bg-metawaytech.png" alt="" class="w-100">
+                                </div>
+                                <div class="col-md-6 ps-5 order-md-1 order-0">
+                                    <div class="content-blockchain">
+                                        <h3>Education</h3>
+                                        <h6>TECHNOLOGY FOR LIFE</h6>
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                            industry. Lorem Ipsum has been the industry's standard dummy
+                                            text
+                                            ever since the 1500s, when an unknown printer took a galley of
+                                            type
+                                            and scrambled it to make a type specimen book. </p>
+                                    </div>
+                                    <h4>
+                                        PROVIDE BLOCKCHAIN
+                                        TECHNOLOGY SOLUTIONS
+                                        FOR THE FIELDS
+                                    </h4>
+                                    <div class="d-flex justify-content-center p-5">
+                                        <button type="button" class="btn btn-read-more">READ MORE</button>
                                     </div>
                                 </div>
-                                <div class="email">
-                                    <div class="characters pe-4">E</div>
-                                    <div>Info@metawaytech.com</div>
+                            </div>
+                        </div>
+                        <div class="mySlides">
+                            <div class="row">
+                                <div class="col-md-6 order-md-0 order-1">
+                                    <img src="./public/img/metavers.png" alt="" class="w-100">
                                 </div>
-                                <div class="web">
-                                    <div class="characters pe-3">W</div>
-                                    <div>www.metawayech.com</div>
+                                <div class="col-md-6 ps-5 order-md-1 order-0">
+                                    <div class="content-blockchain">
+                                        <h3>Healthcare</h3>
+                                        <h6>TECHNOLOGY FOR LIFE</h6>
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                            industry. Lorem Ipsum has been the industry's standard dummy
+                                            text
+                                            ever since the 1500s, when an unknown printer took a galley of
+                                            type
+                                            and scrambled it to make a type specimen book. </p>
+                                    </div>
+                                    <h4>
+                                        PROVIDE BLOCKCHAIN
+                                        TECHNOLOGY SOLUTIONS
+                                        FOR THE FIELDS
+                                    </h4>
+                                    <div class="d-flex justify-content-center p-5">
+                                        <button type="button" class="btn btn-read-more">READ MORE</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6 col-sm-12 p-3">
-                            <span class="border-buttom1"></span>
-                            <div class="social d-flex justify-content-evenly">
-                                <a href="" class=""><i class="fa-brands fa-instagram"></i></a>
-                                <a href="" class=""><i class="fa-brands fa-twitter"></i></a>
-                                <a href="" class=""><i class="fa-brands fa-facebook"></i></a>
-                                <a href="" class=""><i class="fa-brands fa-youtube"></i></a>
-                                <a href="" class=""><i class="fa-brands fa-linkedin-in"></i></a>
-                                <a href="" class=""><i class="fa-brands fa-twitter"></i></a>
-                                <a href="" class=""><i class="fa-solid fa-plus"></i></a>
-                            </div>
-                            <span class="border-buttom1"></span>
-                            <div class="ensign">
-                                <a href="" class=""> <span class="flag-icon flag-icon-fr"></span></a>
-                                <a href="" class=""> <span class="flag-icon flag-icon-de"></span></a>
-                                <a href="" class=""> <span class="flag-icon flag-icon-ca"></span></a>
-                                <a href="" class=""> <span class="flag-icon flag-icon-vn"></span></a>
-                                <a href="" class=""> <span class="flag-icon flag-icon-sg"></span></a>
-                                <a href="" class=""> <span class="flag-icon flag-icon-gb"></span></a>
+                        <div class="mySlides">
+                            <div class="row">
+                                <div class="col-md-6 order-md-0 order-1">
+                                    <img src="./public/img/project.png" alt="" class="w-100">
+                                </div>
+                                <div class="col-md-6 ps-5 order-md-1 order-0">
+                                    <div class="content-blockchain">
+                                        <h3>Others</h3>
+                                        <h6>TECHNOLOGY FOR LIFE</h6>
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                            industry. Lorem Ipsum has been the industry's standard dummy
+                                            text
+                                            ever since the 1500s, when an unknown printer took a galley of
+                                            type
+                                            and scrambled it to make a type specimen book. </p>
+                                    </div>
+                                    <h4>
+                                        PROVIDE BLOCKCHAIN
+                                        TECHNOLOGY SOLUTIONS
+                                        FOR THE FIELDS
+                                    </h4>
+                                    <div class="d-flex justify-content-center p-5">
+                                        <button type="button" class="btn btn-read-more">READ MORE</button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+                <div class="w3-continue">
+                    <div class="w3-section d-flex justify-content-between">
+                        <button class="w3-button btn-next btn-next-left" onclick="plusDivs(-1)">❮</button>
+                        <button class="w3-button btn-next btn-next-right" onclick="plusDivs(1)"> ❯</button>
+                    </div>
+                </div>
+            </section>
+            <section class="out-partners">
+                <div class="container-lg">
+                    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="10000">
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-12 order-md-0 order-1">
+                                        <div class="list-item">
+                                            <div class="item">
+                                                <img src="./public/img/phi-group.png" alt="">
+                                            </div>
+                                            <div class="item">
+                                                <img src="./public/img/taipy.png" alt="">
+                                            </div>
+                                            <div class="item">
+                                                <img src="./public/img/pencil.png" alt="">
+                                            </div>
+                                            <div class="item">
+                                                <img src="./public/img/hyperledger.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="list-item">
+                                            <div class="item">
+                                                <img src="./public/img/metaway-tech.png" alt="">
+                                            </div>
+                                            <div class="item">
+                                                <img src="./public/img/metaway-capital.png" alt="">
+                                            </div>
+                                            <div class="item">
+                                                <img src="./public/img/metaway-med.png" alt="">
+                                            </div>
+                                            <div class="item">
+                                                <img src="./public/img/metaway-land.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="list-item">
+                                            <div class="item">
+                                                <img src="./public/img/pencil.png" alt="">
+                                            </div>
+                                            <div class="item">
+                                                <img src="./public/img/metaway-finance.png" alt="">
+                                            </div>
+                                            <div class="item">
+                                                <img src="./public/img/hyperledger.png" alt="">
+                                            </div>
+                                            <div class="item">
+                                                <img src="./public/img/taipy.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-12  order-md-1 order-0">
+                                        <div class="content-partners">
+                                            <h5> OUT PARTNERS</h5>
+                                            <h2> TRUSTED AND <br>
+                                                SUPPORTED <br>
+                                                BY MANY</h2>
+                                            <p>“We work with major service providers to <br>
+                                                blockchainise conventional business models”</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-12 order-md-0 order-1">
+                                        <div class="list-item">
+                                            <div class="item">
+                                                <img src="./public/img/phi-group.png" alt="">
+                                            </div>
+                                            <div class="item">
+                                                <img src="./public/img/taipy.png" alt="">
+                                            </div>
+                                            <div class="item">
+                                                <img src="./public/img/pencil.png" alt="">
+                                            </div>
+                                            <div class="item">
+                                                <img src="./public/img/hyperledger.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="list-item">
+                                            <div class="item">
+                                                <img src="./public/img/metaway-tech.png" alt="">
+                                            </div>
+                                            <div class="item">
+                                                <img src="./public/img/metaway-capital.png" alt="">
+                                            </div>
+                                            <div class="item">
+                                                <img src="./public/img/metaway-med.png" alt="">
+                                            </div>
+                                            <div class="item">
+                                                <img src="./public/img/metaway-land.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="list-item">
+                                            <div class="item">
+                                                <img src="./public/img/pencil.png" alt="">
+                                            </div>
+                                            <div class="item">
+                                                <img src="./public/img/metaway-finance.png" alt="">
+                                            </div>
+                                            <div class="item">
+                                                <img src="./public/img/hyperledger.png" alt="">
+                                            </div>
+                                            <div class="item">
+                                                <img src="./public/img/taipy.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-12  order-md-1 order-0">
+                                        <div class="content-partners">
+                                            <h5> OUT PARTNERS</h5>
+                                            <h2> TRUSTED AND <br>
+                                                SUPPORTED <br>
+                                                BY MANY</h2>
+                                            <p>“We work with major service providers to <br>
+                                                blockchainise conventional business models”</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-12 order-md-0 order-1">
+                                        <div class="list-item">
+                                            <div class="item">
+                                                <img src="./public/img/phi-group.png" alt="">
+                                            </div>
+                                            <div class="item">
+                                                <img src="./public/img/taipy.png" alt="">
+                                            </div>
+                                            <div class="item">
+                                                <img src="./public/img/pencil.png" alt="">
+                                            </div>
+                                            <div class="item">
+                                                <img src="./public/img/hyperledger.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="list-item">
+                                            <div class="item">
+                                                <img src="./public/img/metaway-tech.png" alt="">
+                                            </div>
+                                            <div class="item">
+                                                <img src="./public/img/metaway-capital.png" alt="">
+                                            </div>
+                                            <div class="item">
+                                                <img src="./public/img/metaway-med.png" alt="">
+                                            </div>
+                                            <div class="item">
+                                                <img src="./public/img/metaway-land.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="list-item">
+                                            <div class="item">
+                                                <img src="./public/img/pencil.png" alt="">
+                                            </div>
+                                            <div class="item">
+                                                <img src="./public/img/metaway-finance.png" alt="">
+                                            </div>
+                                            <div class="item">
+                                                <img src="./public/img/hyperledger.png" alt="">
+                                            </div>
+                                            <div class="item">
+                                                <img src="./public/img/taipy.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-12 order-md-1 order-0">
+                                        <div class="content-partners">
+                                            <h5> OUT PARTNERS</h5>
+                                            <h2> TRUSTED AND <br>
+                                                SUPPORTED <br>
+                                                BY MANY</h2>
+                                            <p>“We work with major service providers to <br>
+                                                blockchainise conventional business models”</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                            data-bs-slide="prev">
+                            <i class="fa-solid fa-angle-left"></i>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                            data-bs-slide="next">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+            <section class="technology">
+                <div class="row g-0">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="content-technology">
+                            <a href="">
+                                <img src="./public/img/technologies1.png" alt="" class="w-100 p-1">
+                                <div class="title-technology">
+                                    <h3>News Lorem ipsum dolor amet</h3>
+                                    <p>Lorem Ipsum is simply </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="content-technology">
+                            <a href="">
+                                <img src="./public/img/technologies2.png" alt="" class="w-100 p-1">
+                                <div class="title-technology">
+                                    <h3>News Lorem ipsum dolor amet</h3>
+                                    <p>Lorem Ipsum is simply </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="content-technology">
+                            <a href="">
+                                <img src="./public/img/technologies3.png" alt="" class="w-100 p-1">
+                                <div class="title-technology">
+                                    <h3>News Lorem ipsum dolor amet</h3>
+                                    <p>Lorem Ipsum is simply </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="content-technology">
+                            <a href="">
+                                <img src="./public/img/technologies4.png" alt="" class="w-100 p-1">
+                                <div class="title-technology">
+                                    <h3>News Lorem ipsum dolor amet</h3>
+                                    <p>Lorem Ipsum is simply </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
-        <div class="copyright">
+        <footer>
             <div class="container-lg">
-                metawaytech.com is a proud part of Metaway Tech Inc, a leading business services company.<br>
-                metawaytech.com is a Registerd Trademark. ©2022-2025 All Rights Reserved
+                <div class="page-footer">
+                    <div class="home-information">
+                        <h5 class="title-footer"><span>HOME PAGE</span></h5>
+                        <span class="border-buttom"></span>
+                        <div class="row ps-5">
+                            <div class="col-md">
+                                <p>ABOUT US</p>
+                                <ul>
+                                    <li>About Us</li>
+                                    <li>Brand Story</li>
+                                    <li>Vision</li>
+                                    <li>Mission</li>
+                                    <li>Competivite Advantages</li>
+                                    <li>Core Values</li>
+                                    <li>Meet Out Team</li>
+                                    <li>Technology Stack</li>
+                                </ul>
+                            </div>
+                            <div class="col-md">
+                                <p>BUSINESS SECTORS</p>
+                                <ul>
+                                    <li>Blockchain</li>
+                                    <li>Al, Big data</li>
+                                    <li>AR, VR, EX Metaverse</li>
+                                    <li>IOT, Automation</li>
+                                </ul>
+                            </div>
+                            <div class="col-md">
+                                <p> PROJECTS</p>
+                                <ul>
+                                    <li>Hyperas</li>
+                                    <li>Divega</li>
+                                    <li>Pindias</li>
+                                    <li>Rapital bank</li>
+                                </ul>
+                            </div>
+                            <div class="col-md">
+                                <p>INVESOTORS</p>
+                                <ul>
+                                    <li>Internal Report</li>
+                                    <li>Annual Financial Report</li>
+                                </ul>
+                            </div>
+                            <div class="col-md">
+                                <p>COMPANY</p>
+                                <ul>
+                                    <li>News & Blog</li>
+                                    <li>Resources</li>
+                                    <li>Talent Aquisition</li>
+                                    <li>Contact</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-information pb-5">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-12 p-3">
+                                <h5 class="title-footer"><span>METAWAY TECH</span></h5>
+                                <span class="border-buttom"></span>
+                                <div class="address">
+                                    <div class="map">
+                                        <div class="characters pe-4">A</div>
+                                        <div>CX01lot, Van Khe urban area, La Khe Ward, <br>Ha Dong District, Hanoi, Vietnam
+                                        </div>
+                                    </div>
+                                    <div class="email">
+                                        <div class="characters pe-4">E</div>
+                                        <div>Info@metawaytech.com</div>
+                                    </div>
+                                    <div class="web">
+                                        <div class="characters pe-3">W</div>
+                                        <div>www.metawayech.com</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12 p-3">
+                                <span class="border-buttom1"></span>
+                                <div class="social d-flex justify-content-evenly">
+                                    <a href="" class=""><i class="fa-brands fa-instagram"></i></a>
+                                    <a href="" class=""><i class="fa-brands fa-twitter"></i></a>
+                                    <a href="" class=""><i class="fa-brands fa-facebook"></i></a>
+                                    <a href="" class=""><i class="fa-brands fa-youtube"></i></a>
+                                    <a href="" class=""><i class="fa-brands fa-linkedin-in"></i></a>
+                                    <a href="" class=""><i class="fa-brands fa-twitter"></i></a>
+                                    <a href="" class=""><i class="fa-solid fa-plus"></i></a>
+                                </div>
+                                <span class="border-buttom1"></span>
+                                <div class="ensign">
+                                    <a href="" class=""> <span class="flag-icon flag-icon-fr"></span></a>
+                                    <a href="" class=""> <span class="flag-icon flag-icon-de"></span></a>
+                                    <a href="" class=""> <span class="flag-icon flag-icon-ca"></span></a>
+                                    <a href="" class=""> <span class="flag-icon flag-icon-vn"></span></a>
+                                    <a href="" class=""> <span class="flag-icon flag-icon-sg"></span></a>
+                                    <a href="" class=""> <span class="flag-icon flag-icon-gb"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-    </footer>
-    <script>
-        var slideIndex = 1;
-        showDivs(slideIndex);
+            <div class="copyright">
+                <div class="container-lg">
+                    metawaytech.com is a proud part of Metaway Tech Inc, a leading business services company.<br>
+                    metawaytech.com is a Registerd Trademark. ©2022-2025 All Rights Reserved
+                </div>
+            </div>
+        </footer>
+        <script>
+            var slideIndex = 1;
+            showDivs(slideIndex);
 
-        function plusDivs(n) {
-            showDivs(slideIndex += n);
-        }
-
-        function currentDiv(n) {
-            showDivs(slideIndex = n);
-        }
-
-        function showDivs(n) {
-            var i;
-            var x = document.getElementsByClassName("mySlides");
-            var dots = document.getElementsByClassName("demo");
-            if (n > x.length) { slideIndex = 1 }
-            if (n < 1) { slideIndex = x.length }
-            for (i = 0; i < x.length; i++) {
-                x[i].style.display = "none";
+            function plusDivs(n) {
+                showDivs(slideIndex += n);
             }
-            for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" w3-red", "");
-            }
-            x[slideIndex - 1].style.display = "block";
-            dots[slideIndex - 1].className += " w3-red";
-        }
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
-        crossorigin="anonymous"></script>
-</body>
 
-</html>
+            function currentDiv(n) {
+                showDivs(slideIndex = n);
+            }
+
+            function showDivs(n) {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("demo");
+                if (n > x.length) { slideIndex = 1 }
+                if (n < 1) { slideIndex = x.length }
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" w3-red", "");
+                }
+                x[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " w3-red";
+            }
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+            integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+            integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+            crossorigin="anonymous"></script>
+    </body>
+
+    </html>
